@@ -51,17 +51,9 @@ return require('packer').startup(function(use)
           "ibhagwan/fzf-lua",              -- optional
       }
   }
-  use 'christoomey/vim-tmux-navigator'
-  use 'mfussenegger/nvim-lint'
 
+ use 'christoomey/vim-tmux-navigator'
+ use 'preservim/nerdcommenter'
+ use 'mfussenegger/nvim-lint'
 
---  use {
---    "nvim-neo-tree/neo-tree.nvim",
---    branch = "v3.x",
---    requires = { 
---        "nvim-lua/plenary.nvim",
---        "nvim-tree/nvim-web-devicons", -- not strictly required, but recommended
---        "MunifTanjim/nui.nvim",
---    }
---}
 end)
