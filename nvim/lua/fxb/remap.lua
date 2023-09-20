@@ -23,6 +23,7 @@ vim.keymap.set("i", "jk", "<Esc>")
 vim.keymap.set("n", "<leader>x", "<cmd>!chmod +x %<CR>", {silent = true})
 vim.keymap.set("n", "<leader>r", "<cmd>!go run %<CR>", {silent = true})
 vim.keymap.set("n", "<leader>rk", "<cmd>!kotlinc %<CR>.kt -include-runtime -d %<CR>.jar", {silent = true})
+vim.keymap.set("n", "<leader>ktl", "<cmd>!./gradlew ktlintFormat<CR>", {silent = true})
 
 vim.keymap.set("n", "<Tab>", "<C-w>w", { remap=false, silent=true })
 
